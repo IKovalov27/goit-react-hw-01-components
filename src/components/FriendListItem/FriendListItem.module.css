@@ -1,0 +1,41 @@
+.item {
+    display: flex;
+    list-style: none;
+
+    align-items: center;
+
+    margin-top: 15px;
+}
+
+.item:last-child {
+    margin-bottom: 15px;
+}
+
+.status {
+    width: 10px;
+    height: 10px;
+
+    border-radius: 35%;
+    background-color: red;
+
+    margin-right: 40px;
+}
+
+.status.is-online {
+    border-radius: 50%;
+    background-color: green;
+}
+
+.avatar {
+    background-color: aliceblue;
+    border: 1px solid rgba(131, 131, 131, 0.842);
+
+    padding: 15px;
+}
+
+.name {
+    margin-left: 10px;
+
+    font-size: 18px;
+    font-weight: 700;
+}
